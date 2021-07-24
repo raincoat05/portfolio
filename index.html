@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaitoMakinoPortfolio</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="homeHeader">
+        <div class="headerIconBox">
+            <img src="./icon/headerSideItem.svg" alt="" class="headerSideItem headerSideItemLeft">
+            <img src="./icon/logo.svg" alt="headerLogo" id="headerLogo">
+            <img src="./icon/headerSideItem.svg" alt="" class="headerSideItem headerSideItemRight">
+        </div>
+        <div id="headerNav">
+            <a href="./index.html" data-aos="fade-right" data-aos-delay="700">
+                <h1>Home</h1>
+            </a>
+            <a href="./about.html" data-aos="fade-down" data-aos-delay="500">
+                <h1>About</h1>
+            </a>
+            <a href="./work.html" data-aos="fade-left" data-aos-delay="900">
+                <h1>Works</h1>
+            </a>
+        </div>
+        <img src="./icon/scrollIcon.svg" alt="scrollIcon" id="scrollIcon">
+    </div>
+
+    <div id="skill">
+        <img src="./icon/skillSideItem.svg" alt="skillSideItem" class="skillSideItem">
+        <div id="skillContent">
+            <div id="skillCodingBox" class="skillContentBox">
+                <div class="skillIconBox" data-aos="fade-right">
+                    <img src="./icon/codingIcon.svg" alt="csrollIcon" id="skillCodingIcon" class="skillIcon">
+                    <h2>Coding</h2>
+                </div>
+                <table class="skillTable skillTableCoding">
+                    <tr class="skillTableContent" data-aos-anchor=".skillIconBox" data-aos="fade-right" data-aos-delay="200">
+                        <td class="skillName">
+                            <h3>HTML</h3>
+                        </td>
+                        <td class="skillScore">
+                            <p>4 / 5</p>
+                        </td>
+                    </tr>
+                    <tr class="skillTableContent" data-aos-anchor=".skillIconBox" data-aos="fade-right" data-aos-delay="300">
+                        <td class="skillName">
+                            <h3>CSS</h3>
+                        </td>
+                        <td class="skillScore">
+                            <p>3 / 5</p>
+                        </td>
+                    </tr>
+                    <tr class="skillTableContent" data-aos-anchor=".skillIconBox" data-aos="fade-right" data-aos-delay="400">
+                        <td class="skillName">
+                            <h3>JQuery</h3>
+                        </td>
+                        <td class="skillScore">
+                            <p>1 / 5</p>
+                        </td>
+                    </tr>
+                    <tr class="skillTableContent" data-aos-anchor=".skillIconBox" data-aos="fade-right" data-aos-delay="500">
+                        <td class="skillName">
+                            <h3>SCSS</h3>
+                        </td>
+                        <td class="skillScore">
+                            <p>3 / 5</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="skillDesignBox" class="skillContentBox">
+                <div class="skillIconBox" data-aos="fade-left">
+                    <img src="./icon/designIcon.svg" alt="" id="skillDesignIcon" class="skillIcon">
+                    <h2>Design</h2>
+                </div>
+                <table class="skillTable skillTableDesign">
+                    <tr class="skillTableContent" data-aos-anchor=".skillIconBox" data-aos="fade-left" data-aos-delay="200">
+                        <td class="skillName">
+                            <h3>Photoshop</h3>
+                        </td>
+                        <td class="skillScore">
+                            <p>2 / 5</p>
+                        </td>
+                    </tr>
+                    <tr class="skillTableContent" data-aos-anchor=".skillIconBox" data-aos="fade-left" data-aos-delay="300">
+                        <td class="skillName">
+                            <h3>Illustrator</h3>
+                        </td>
+                        <td class="skillScore">
+                            <p>3 / 5</p>
+                        </td>
+                    </tr>
+                    <tr class="skillTableContent" data-aos-anchor=".skillIconBox" data-aos="fade-left" data-aos-delay="400">
+                        <td class="skillName">
+                            <h3>Xd</h3>
+                        </td>
+                        <td class="skillScore">
+                            <p>4 / 5</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/anime.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>

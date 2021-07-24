@@ -1,0 +1,303 @@
+h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 2.3vw;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 1.7vw;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.4vw;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0b628e;
+}
+
+body {
+  background: #f9f9f9;
+  font-family: helvetica;
+  width: 100vw;
+}
+
+#homeHeader {
+  position: relative;
+  height: 100vh;
+  width: 90vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#homeHeader .headerIconBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5%;
+}
+
+#homeHeader .headerIconBox .headerSideItem {
+  width: 16vw;
+}
+
+#homeHeader .headerIconBox #headerLogo {
+  width: 15vw;
+}
+
+#homeHeader #homeLogo {
+  margin: 0 auto;
+}
+
+#homeHeader #headerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50vw;
+  padding-top: 30vh;
+  margin: 0 auto;
+}
+
+#homeHeader #scrollIcon {
+  position: absolute;
+  width: 4%;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: auto;
+}
+
+#skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 10vh;
+}
+
+#skill .skillSideItem {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#skill #skillContent {
+  width: 45vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#skill #skillContent #skillDesignBox {
+  margin-left: 10vw;
+}
+
+#skill #skillContent .skillContentBox {
+  width: 30vw;
+  height: 10rem;
+}
+
+#skill #skillContent .skillContentBox .skillIconBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #381c62;
+}
+
+#skill #skillContent .skillContentBox .skillIconBox .skillIcon {
+  height: 2vw;
+  padding-right: 1.2vw;
+}
+
+#skill #skillContent .skillContentBox .skillTable {
+  width: 100%;
+}
+
+#skill #skillContent .skillContentBox .skillTable td {
+  padding-top: 5vh;
+  color: #0b628e;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  height: 9vh;
+  padding-top: 5vh;
+  margin-left: 6vw;
+}
+
+.header .logo {
+  width: 15vw;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 10vw;
+}
+
+.header .nav a {
+  margin-left: 3vw;
+}
+
+#aboutMainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  height: 86vh;
+  width: 90vw;
+}
+
+#aboutMainContent #aboutTextBox {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10vh;
+}
+
+#aboutMainContent #aboutTextBox #aboutText {
+  width: 35vw;
+  margin-left: 6vw;
+}
+
+#aboutMainContent #aboutTextBox #aboutText h1 {
+  color: #381c62;
+}
+
+#aboutMainContent #aboutTextBox #aboutText p {
+  color: #161616;
+  padding-top: 10vh;
+  font-weight: 450;
+}
+
+#aboutMainContent #aboutTextBox #aboutSkill {
+  margin-left: 8vw;
+}
+
+#aboutMainContent #aboutTextBox #aboutSkill h3 {
+  padding-top: 6vh;
+  color: #0b628e;
+}
+
+#workBg {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 95vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35vh;
+  z-index: -1000;
+}
+
+#workBg .workSideItem {
+  height: 135vh;
+}
+
+#workMainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  width: 65vw;
+  margin-top: 35vh;
+}
+
+#workMainContent .workContentBox {
+  position: relative;
+  width: 28vw;
+  height: 28vw;
+  margin-bottom: 7vw;
+  overflow: hidden;
+}
+
+#workMainContent .workContentBox .workImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 50%;
+     object-position: 100% 50%;
+}
+
+#workMainContent .workContentBox .workTextBox {
+  position: absolute;
+  bottom: -100px;
+  left: 12px;
+  color: #f9f9f9;
+}
+/*# sourceMappingURL=main.css.map */
